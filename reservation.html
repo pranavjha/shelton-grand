@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style/common.css"/>
+<link rel="stylesheet" type="text/css" href="style/jquery.ad-gallery.css"/>
+<script language="javascript" type="text/javascript" src="js/jQuery.js" ></script>
+<title>Sample Template</title>
+<script language="javascript" type="text/javascript">
+$(function(){
+	$('body').keypress(function(event){
+		if(event.which == 13 
+			&& $(event.target).filter('input[type="submit"], input[type="button"], input[type="image"], button, textarea').length == 0){
+			event.preventDefault();
+		}
+	});
+});
+
+</script>
+</head>
+<body>
+<form>
+	<input name="a" type="text" value="a" />
+  <textarea name="a" cols="10" rows="10"></textarea>
+  <p>
+      <label>
+        <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0" />
+        Checkbox</label>
+    <br />
+      <label>
+        <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1" />
+        Checkbox</label>
+    <br />
+  </p>
+  
+  <table width="200">
+    <tr>
+      <td><label>
+        <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" />
+        Radio</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1" />
+        Radio</label></td>
+    </tr>
+  </table>
+  <input name="asdfg" type="submit" value="asdfg" onclick="alert(1);"/>
+</form>
+</body>
+</html>

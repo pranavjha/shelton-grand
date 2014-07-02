@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	margin: 0px;
+	font-family: Garamond, "Times New Roman";
+	font-size: 12px;
+}
+
+textarea[type="textarea"],input[type="text"],input[type="password"],select,textarea,button,keygen,isindex,legend,a
+	{
+	font-family: Garamond, "Times New Roman";
+	font-size: 12px;
+}
+
+html {
+	background: url(images/background.png) 0px 0px repeat scroll;
+}
+
+.rich-calendar-days,.rich-calendar-cell,.rich-calendar-week {
+	font-family: Garamond, "Times New Roman";
+}
+
+input,select,textarea {
+	font-family: Garamond, "Times New Roman";
+}
+
+button[type="button"],button[type="reset"],button[type="submit"],input[type="reset"],input[type="submit"],input[type="button"]
+	{
+	-moz-box-shadow: 0 0 5px #000000;
+	-webkit-box-shadow: 0 0 5px #000000;
+	box-shadow: 0 0 5px #000000;
+	background: url("images/button.png") repeat scroll 0 0 transparent;
+	border: 0 none;
+	line-height: 14px;
+	padding: 0 10px;
+	margin: 5px;
+	font-family: Garamond, "Times New Roman";
+	cursor: pointer;
+}
+
+a {
+	color: #006600;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #006600;
+	font-weight: bold;
+}
+
+div.mainContent {
+	background: url(images/contentBack.png);
+	width: 824px;
+	height: 768px;
+	padding: 0px 0px 0px 200px;
+	margin: auto;
+	-moz-box-shadow: 0 0 5px #000000;
+	-webkit-box-shadow: 0 0 5px #000000;
+	box-shadow: 0 0 5px #000000;
+}
+
+div.flashContent {
+	height: 160px;
+	margin: 0 0 0 40px;
+	width: 780px;
+}
+
+div.leftNavigation {
+	float: left;
+	margin: 0px 0px 0px -200px;
+	width: 200px;
+}
+
+ul.leftNavigationLinks {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.leftNavigationLinks li {
+	padding: 0px 0px 0px 10px;
+}
+
+ul.leftNavigationLinks a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 0 10px 0 0;
+	text-align: right;
+	text-decoration: none;
+	width: 180px;
+	letter-spacing: 1px;
+	text-shadow: 0 0 5px #000000;
+	font-weight: normal;
+}
+
+ul.leftNavigationLinks a.active,ul.leftNavigationLinks a:hover {
+	background: url(images/dataBack.png) repeat scroll;
+	line-height: 40px;
+	font-weight: bold;
+	-moz-box-shadow: 0 0 5px #6D632C;
+	-webkit-box-shadow: 0 0 5px #6D632C;
+	box-shadow: 0 0 5px #6D632C;
+}
+
+div.content {
+	-moz-box-shadow: 0 0 5px #6D632C;
+	background: url("images/dataBack.png") repeat scroll 0 0 transparent;
+	margin: 0 28px 0 0;
+	overflow: hidden;
+	padding: 10px 190px 10px 10px;
+	width: 595px;
+	height:500px;
+	position:relative;
+}
+div.content p {
+	color:#FFFFFF;
+	font-size:16px;
+	padding:10px;
+	text-align:justify;
+	text-shadow:0 0 5px #000000;
+}
+div.rightContent {
+	background:url("images/rightSideBack.png") no-repeat scroll 0 0 transparent;
+	color:#595233;
+	float:right;
+	height:370px;
+	margin:0 -180px 0 0;
+	position:absolute;
+	right:193px;
+	top:16px;
+	width:170px;
+	z-index:10;
+}
+
+div.rightContent h1 {
+	background: url("images/headerUnderline.png") no-repeat scroll 50% 100%
+		transparent;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	font-variant: small-caps;
+	font-weight: bold;
+	line-height: 40px;
+	padding: 0 10px;
+	text-align: right;
+}
+
+div.rightContent input[type="text"] {
+	-moz-box-shadow: 0 0 3px #999999;
+	-webkit-box-shadow: 0 0 3px #999999;
+	box-shadow: 0 0 3px #999999;
+	background: none repeat scroll 0 0 #DBE8F3;
+	border: 1px solid #BADBE3;
+	height: 14px;
+	margin: 0;
+	padding: 0;
+	width: 87px;
+}
+
+div.rightContent span.label {
+	display: block;
+	float: left;
+	line-height: 15px;
+	margin: 0;
+	text-align: right;
+	width: 30%;
+}
+
+div.rightContent input[type=submit] {
+	float: right;
+	margin: 5px 10px 5px 5px;
+}
+
+div.rightContent a {
+	display: block;
+	float: right;
+	font-weight: bold;
+	margin: 5px 10px 5px 5px;
+}
+
+div.rightContent .googleMap {
+	border: 1px solid #FFFFFF;
+	height: 148px;
+	margin: 0 10px;
+	width: 148px;
+}
+
+div.footer {
+	margin: 10px 30px 20px 650px;
+}
+
+div.footerLeft {
+	float: left;
+	margin: 0 0 0 -650px;
+}
+
+div.footerMiddle {
+	float: left;
+	margin: 0 0 0 -378px;
+}
+
+div.footerRight {
+	text-align: right;
+}
+
+div.copyrightNotice {
+	margin: 100px 30px 0 -190px;
+	text-align: right;
+}
+
+div.copyrightNotice div.poweredBy {
+	text-align: left;
+	float: left;
+}
